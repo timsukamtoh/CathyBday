@@ -1,10 +1,11 @@
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     overflow: auto;
     font-family: "American Typewriter", serif;
     display: flex;
     flex:auto;
+    width: auto;
 
     flex-direction: column;
   }
@@ -14,10 +15,10 @@ body {
     background-color: #76be6d;
     flex:auto;
     display: flex;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 4vh;
-    padding-bottom: 2vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 0%;
     justify-content: space-between;
     align-items: center;
 }
