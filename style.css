@@ -4,131 +4,145 @@ body {
     overflow: auto;
     font-family: "American Typewriter", serif;
     display: flex;
+    flex:auto;
+
     flex-direction: column;
   }
 
   /*header pieces*/ 
 .header {
     background-color: #76be6d;
+    flex:auto;
     display: flex;
-    padding: 15px 250px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
     color: #e5e7eb;
-    font-size: 24px;
+    font-size: 1.75vw;
     font-weight: bold;
 }
 ul {
-    padding: 0px;
     list-style-type: none;
 }
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 1vw;
 }
 .links {
     display: flex;
     flex-direction: row;
     margin-left: auto;
     justify-content: space-between;
-    gap: 30px;
+    gap: 1.5vw;
 }
 
 /* main section pieces */
 .main {
     background-color: #76be6d;
-
+    flex:auto;
     display: flex;
-    padding: 100px 250px;
-
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .picture-card {
-    height: 250px;
+    height: 35vh;
     display: flex;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    gap: 50px;
+    gap: 5vw;
 }
 
 .intro {
     display: flex;
+    flex:auto;
     flex-direction: column;
     justify-content: center;
-    gap: 0px;
 }
 
 .hero-title {
     color: #e5e7eb;
-    font-size: 48px;
+    font-size: 3vw;
     font-weight: 900;
-    padding: 0px;
-    margin: 0px;
 }
 .description {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 #bday-pic {
     width: auto;
     height: auto;
     display: flex;
+    border: 0.25vw solid white;
     flex-shrink: 1;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 1vw;
 }
 
 /* Additional info section */
 .middle {
     display: flex;
+    flex:auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding-top: 40px;
+    gap: 5vh;
+    padding-top: 3vh;
 }
 
 .section-title {
     color: #90df86;
-    font-size: 36px;
+    font-size: 2vw;
     font-weight: bolder;
 }
 
 .info-group {
     display: flex;
     flex-direction: row;
-    gap: 80px;
-    padding-bottom: 100px;
+    gap: 3vw;
+    padding-bottom: 3vh;
 }
 
 .picture-info-box {
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .rounded-pic {
-    height: 240px;
-    width: 200px;
-    border: 5px solid #76be6d;
-    border-radius: 5px;
+    height: 25vh;
+    width: auto;
+    border: 0.25vw solid #76be6d;
+    border-radius: 0.5vw;
 }
 
 .small-description {
     color: black;
-    font-size: 18px;
+    font-size: 1vw;
     text-align: center;
 }
 
 /*testimonial section*/
 .external-content {
     background-color: #e5e7eb;
-    padding: 100px 250px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,64 +150,25 @@ a {
 #togetherSince{
     font-family: "Snell Roundhand", "Apple Chancery" , "URW Chancery L", cursive;
     font-style: italic;
-    font-size: 36px;
-    margin-bottom: 0;
+    font-size: 2vw;
     display: flex;
 }
 
 .big-text {
-    font-size: 32px;
+    font-size: 1.5vw;
     font-weight: bolder;
     display: flex;
-    margin-bottom: 0;
 }
 .quoted {
     margin-left: auto;
-    margin-top: 10px;
-}
-
-/* call to action section */
-
-.closing {
-    padding: 100px 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.call-to-action{
-    background-color: #3882f6;
-    color: white;
-    height: 150px;
-    width: 600px;
-    border-radius: 5px;
-    display: flex;
-    padding: 30px 80px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.button-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.convince {
-    margin-top: 10px;
-}
-
-.button2 {
-    border-color: white;
-    font-size: 20px;
-    color: white;
+    margin-top: 2vh;
 }
 
 .footer {
     background-color: #76be6d;
-    font-size: 18px;
+    font-size: 1vw;
     color: #f9faf8;
-    padding: 30px;
+    padding: 1.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
