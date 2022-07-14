@@ -2,7 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: auto;
-    font-family: American Typewriter, serif;
+    font-family: "American Typewriter", serif;
     display: flex;
     flex-direction: column;
   }
@@ -135,7 +135,7 @@ a {
     justify-content: center;
 }
 #togetherSince{
-    font-family: Snell Roundhand, cursive;
+    font-family: "Snell Roundhand", "Apple Chancery" , "URW Chancery L", cursive;
     font-style: italic;
     font-size: 36px;
     margin-bottom: 0;
