@@ -170,7 +170,7 @@ a {
 
 .footer {
     background-color: #76be6d;
-    font-size: 1vw;
+    font-size: 1.4vw;
     color: #f9faf8;
     padding: 1.5vw;
     display: flex;
@@ -214,6 +214,16 @@ a {
         width: auto;
     }
     .small-description {
+        font-size: 1vw;
+    }
+    #togetherSince{
+        font-size: 2vw;
+    }
+    
+    .big-text {
+        font-size: 1.7vw;
+    }
+    .footer {
         font-size: 1vw;
     }
 }
